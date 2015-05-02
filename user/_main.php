@@ -32,7 +32,7 @@ require_once '_check.php';
 <div class="wrapper">
 
     <header class="main-header">
-        <a href="../../index2.html" class="logo"><?php echo $site_name;  ?></a>
+        <a href="/" class="logo"><?php echo $site_name;  ?></a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
             <!-- Sidebar toggle button-->
@@ -119,11 +119,13 @@ require_once '_check.php';
                     </a>
                 </li>
 
+<!--
                 <li>
                     <a href="invite.php">
                         <i class="fa fa-users"></i> <span>邀请好友</span>
                     </a>
                 </li>
+-->
 
                 <li  >
                     <a href="sys.php">

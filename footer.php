@@ -1,8 +1,9 @@
 <div class="footer">
-    <p>&copy; <?php echo $site_name."  ".date('Y'); ?>  Powered by <a href="https://github.com/orvice/ss-panel">ss-panel</a> <?php echo $version; ?>
-        Runtime <?php
+    <p>&copy; <?php echo $site_name."  ".date('Y'); ?> 
+        <span class="pull-right">Runtime <?php
         $Runtime->Stop();
         echo $Runtime->SpendTime()."ms";
         ?>
+        </span>
     </p>
 </div>

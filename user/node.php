@@ -72,7 +72,7 @@ $node = new Ss\Node\Node();
                         <div class="box-body">
                             <div class="callout callout-warning">
                                 <h4>注意!</h4>
-                                <p>....</p>
+                                <p>暂未设置Pro节点</p>
                             </div><?php
                             $node1 = $node->NodesArray(1);
                             foreach($node1 as $row){

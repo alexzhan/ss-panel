@@ -32,7 +32,7 @@ require_once '../lib/config.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><?php echo $site_name;  ?></a>
+            <a class="navbar-brand" href="/"><?php echo $site_name;  ?></a>
         </div>
 
     </div>
@@ -47,8 +47,9 @@ require_once '../lib/config.php';
     <h3>隐私</h3>
     <p>
         <ul>
-            <li>用户注册时候需要提供邮箱以及密码，并自行保管。邮箱为用户唯一凭证</li>
-            <li>本站会加密存储用户密码，尽量保证数据安全，但并不保证这些信息的绝对安全。</li>
+            <li>301专用。你懂得。不懂请退散。</li>
+            <li>用户注册时候需要提供邮箱以及密码以及真实姓名，看不出是谁的会删除。邮箱为用户唯一凭证。</li>
+            <li>本站会加密存储用户密码，尽量保证数据安全。</li>
         </ul>
     </p>
 
@@ -58,8 +59,7 @@ require_once '../lib/config.php';
             <li>禁止使用本站服务进行任何违法恶意活动。</li>
             <li>使用任何节点，需遵循节点所属国家的相关法律以及中国法律。</li>
             <li>禁止滥用本站提供的服务。</li>
-            <li>对于免费用户，我们有权在不通知的情况下删除账户。</li>
-            <li>任何违法使用条款的用户，我们将会删除</li>
+            <li>违规使用本站服务的用户，我们将会删除。</li>
        </ul>
     </p>
 
@@ -75,7 +75,7 @@ require_once '../lib/config.php';
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted"><strong>Copyright &copy; <?php echo date('Y'); ?> <a href="#"><?php echo $site_name;  ?></a>.</strong> All rights reserved. Powered by  <b>ss-panel</b> <?php echo $version; ?> </p>
+        <p class="text-muted"><strong>Copyright &copy; <?php echo date('Y'); ?> <a href="#"><?php echo $site_name;  ?></a>.</strong> All rights reserved. </p>
     </div>
 </footer>
 

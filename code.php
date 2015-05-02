@@ -9,7 +9,7 @@ $c = new \Ss\User\Invite();
 
     <div class="jumbotron">
         <p class="lead"> 邀请码实时刷新</p>
-        <p>如遇到无邀请码请找已经注册的用户获取。</p>
+        <p>如遇到无邀请码请找管理员获取</p>
     </div>
 
     <div class="row marketing">

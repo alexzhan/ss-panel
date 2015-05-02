@@ -25,7 +25,7 @@ require_once '../lib/config.php';
 <body class="register-page">
 <div class="register-box">
     <div class="register-logo">
-        <a href="../../index2.html"><b><?php echo $site_name;  ?></b></a>
+        <a href="/"><b><?php echo $site_name;  ?></b></a>
     </div>
 
     <div class="register-box-body">
@@ -45,7 +45,7 @@ require_once '../lib/config.php';
 
 
             <div class="form-group has-feedback">
-                <input type="text" id="name" class="form-control" placeholder="贵姓"/>
+                <input type="text" id="name" class="form-control" placeholder="真实中文姓名"/>
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
